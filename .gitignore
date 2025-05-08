@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables and API keys
+.env
+.env.local
+api_keys.json
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Flask environment files
+instance/
+.webassets-cache
+
+# MongoDB data files
+data/db/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+assets/data/
+# Log files
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.claude/settings.local.json
